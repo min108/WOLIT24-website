@@ -1,0 +1,45 @@
+<div style="display:flex; -ms-flex-align: center;">
+<!-- <div> -->
+<div style="overflow: hidden; margin:0 auto; float: none;">
+  <style type="text/css">
+    .tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;font-size: small;}
+    .tg td{border-width: 1px 0; border-color:rgb(232, 232, 232);border-style:solid; overflow:hidden;padding:5px 5px;word-break:normal;text-align:center; }
+    .tg th{border-width: 0;border-top-width:2px;border-color:rgb(180, 180, 180);border-style:solid;font-weight:bold;overflow:hidden;padding:5px 5px;word-break:normal;text-align:center; }
+    .brk {background-color: rgb(235, 255, 246);}
+  </style>
+  <div style="margin: 0 0px 0 0; float: left;">
+      <table class="tg">
+        {% for day in site.data.poster_sched %}
+          <thead>
+            <tr>
+              <th id=" "></th>
+              <th>
+                {% for line in day.date %}
+                  {{ line }}<br>
+                {% endfor %}
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for sch in day.sched %}
+            <tr {% if sch.event contains 'Break' %}class="brk"{% endif %}>
+              <td style="width: 95px;">{{sch.time}}</td>
+              <td style="padding: 5px 0px">
+                <div>
+                  <p style="margin: 0">{{sch.event}}</p>
+                  {% if sch contains "spk-id" %}
+                    {% assign cur_spk = site.data.speakers | find: "id", sch.spk-id %}
+                    <p style="margin: 0"><b>Speaker: </b>{{cur_spk.name}}, {% for t in cur_spk.title %}{{t}}{% endfor %}, {% for aff in cur_spk.affiliation %}{{aff}}{% endfor %}</p>
+                    <!-- <p style="margin: 0"><b>Speaker: </b>{{cur_spk.name}}, {{cur_spk.title | first}}, {% for aff in cur_spk.affiliation %}{{aff}}{% endfor %}</p> -->
+                    <p style="margin: 0"><b>Title: </b>{{cur_spk.spk-title}}</p>
+                  {% endif %}
+                </div>
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        {% endfor %}
+      </table>
+  </div>
+</div>
+</div>

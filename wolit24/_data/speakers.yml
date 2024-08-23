@@ -1,0 +1,150 @@
+- id: 1
+  sort_num: 1
+  name: Huaiyu Dai
+  title: 
+    - Professor, IEEE Fellow, Fellow of Asia-Pacific Artificial Intelligence Association
+  title_level: 1
+  affiliation: 
+    - North Carolina State University
+  bio: "Huaiyu Dai received the B.E. and M.S. degrees from Tsinghua University, Beijing, China, in 1996 and 1998, respectively, and the Ph.D. degree from Princeton University, Princeton, NJ in 2002, all in Electrical Engineering. He has been with NC State University since 2003, now holding the position of Professor and the title of University Faculty Scholar. His research interests include signal processing for communications and networking, network security, and machine learning, with over 280 peer-reviewed journal/conference papers published. He has served as an Area Editor for IEEE Transactions on Communications, a member of the Executive Editorial Committee for IEEE Transactions on Wireless Communications (TWC), and an Editor for IEEE Transactions on Signal Processing. Currently he serves as an Area Editor for TWC. He has been an Area TPC Chair for IEEE International Conference on Computer Communications (INFOCOM) for 7 years. Previously, he served as a symposium Co-Chair multiple times for IEEE International Conference on Mobile Ad-hoc and Sensor Systems (MASS), IEEE International Conference on Communications (ICC), and IEEE Global Communications Conference (GLOBECOM). He received Qualcomm Faculty Award, and several best paper awards at IEEE MASS, ICC, and INFOCOM BIGSECURITY Workshop. He is a Fellow of IEEE and Asia-Pacific Artificial Intelligence Association."
+  avatar: /assets/images/avatar-HuaiyuDai.jpg
+  url: http://www.ece.ncsu.edu/people/hdai/
+  spk-title: Trilemma in Distributed Learning:Data Privacy, Communication Efficiency, and Accuracy
+  spk-abstract: 
+    - Distributed learning is envisioned to play an important role in next-generation AI-native wireless systems. By exploiting computing power and sensory data distributed across the network, this learning paradigm dramatically reduces communication burden and enhances data privacy, thus enabling network intelligence in a scalable manner. This talk focuses on the intriguing relationship of communication efficiency, data privacy and learning performance in the distributed training of deep neural networks. We first introduce our work on user training data reconstruction based on gradient information from the attacker's perspective, indicating that there is still a risk of data privacy leakage even if the principle of data minimization in distributed learning is followed. We examine and observe that different compressors vary in performance against the data reconstruction attacks. Then, to measure the privacy-preservation capability of gradient compression, we introduce our work on differential privacy of gradient compressors from the perspective of defensive mechanisms, revealing the inherent relationship between lossy compression and privacy protection.
+
+- id: 2
+  sort_num: 2
+  name: Ahmet Enis Cetin
+  title: 
+    - Professor, IEEE Fellow
+  title_level: 1
+  affiliation: 
+    - University of Illinois Chicago
+  bio: "He developed the use of AI/Computer Vision for wildfire detection and Turkish Forestry Service established AI-based wildfire detection systems in 100 locations in Mediterranean Turkey in 2010; Fellow of IEEE; 2015 to present:Member, Turkish Academy of Sciences; Editorial Board Member, IEEE Signal Processing Magazine, 2013-2016; Special Issue Editor, Signal Processing for Ambient Assisted Living System, IEEE Signal Processing Magazine, 2016; Assoc. Editor, IEEE Trans. on CAS for Video Technology, 2014- 2016; Editor-in-Chief, Signal, Image and Video Processing, Springer-Nature, SCI Impact Factor 1.8, March 2013-; Editorial Board Member, Signal Processing (EURASIP:European Signal Processing Society), 2006-2010."
+  avatar: /assets/images/avatar-EnisCetin.jpg
+  url: https://ece.uic.edu/profiles/ahmet-enis-cetin-phd/
+  spk-title: Robust Multiplication-Free Kernels Related with L1-Norm and Haar Wavelet Based Network Layers
+  spk-abstract: 
+    - We describe a family of vector dot products that can be implemented using only sign calculations and addition/subtraction operations. The dot products are also energy-efficient because they do not perform energy consuming multiplication operations. Moreover, the vector products induce the L1-norm. As a result, they are robust to outliers in data. We prove that some of the vector products satisfy Mercer's condition and yield symmetric, positive semi-definite generalized covariance matrices, thus enabling Kernel Principal Component Analysis (KPCA) and related energy-efficient signal and image processing applications. We can also use the new vector products in "convolution"-like operations in deep neural networks. In the second part of the talk, We will describe Haar Wavelet (or Hadamard transform) layers for neural networks to further reduce the energy consumption in edge applications. We will present practical Machine Learning applications. ML applications include (i) wildfire detection at the edge using cameras and (ii) sleep monitoring using infrared sensors.
+
+- id: 3
+  sort_num: 3
+  name: Tsung-hui Chang
+  title: 
+    - Professor
+    - ", IEEE Fellow"
+  title_level: 1
+  affiliation: 
+    - The Chinese University of Hong Kong, Shenzhen
+  bio: "Tsung-Hui Chang is a Full Professor and Associate Dean (Education) at the School of Science and Engineering, The Chinese University of Hong Kong, Shenzhen, China, and Shenzhen Research Institute of Big Data. His research interests lie in optimization problems in data communications and machine learning. He is an Elected Member of IEEE SPS SPCOM TC and the Founding Chair of IEEE SPS ISAC TWG. He received the IEEE ComSoc Asian-Pacific Outstanding Young Researcher Award in 2015, and the IEEE SPS Best Paper Award twice in 2018 and 2021. He is currently a Senior Area Editor of IEEE TSP and an Associate Editor of IEEE OJSP. He is a Fellow of IEEE."
+  avatar: /assets/images/avatar-ZonghuiZhang.jpg
+  url: https://myweb.cuhk.edu.cn/changtsunghui
+  spk-title: "Aligning Model with Human Preference: A Ranking based Zeroth-order Optimization Method"
+  spk-abstract: 
+    - In this study, we delve into an emerging optimization challenge involving a black-box objective function that can only be gauged via a ranking oracle—a situation frequently encountered in real-world scenarios, especially when the function is evaluated by human judges. A prominent instance of such a situation is Reinforcement Learning with Human Feedback (RLHF), an approach recently employed to enhance the performance of Large Language Models (LLMs) using human. We introduce ZO-RankSGD, an innovative zeroth-order optimization algorithm designed to tackle this optimization problem, accompanied by theoretical assurances. Our algorithm utilizes a novel rank-based random estimator to determine the descent direction and guarantees convergence to a stationary point. Last but not least, we demonstrate the effectiveness of ZO-RankSGD in a novel application:improving the quality of images generated by a diffusion generative model with human ranking feedback. Throughout experiments, we found that ZO-RankSGD can significantly enhance the detail of generated images with only a few rounds of human feedback. Overall, our work advances the field of zeroth-order optimization by addressing the problem of optimizing functions with only ranking feedback, and offers a new and effective approach for aligning Artificial Intelligence (AI) with human intentions.
+
+- id: 4
+  sort_num: 4
+  name: Min Tao
+  title: 
+    - Professor
+  title_level: 2
+  affiliation: 
+    - Nanjing University
+  bio: "Tao Min's primary research focuses on the theory and application of optimization algorithms and optimization problems in machine learning. Her representative work has been published in flagship journals such as SIAM Journal on Optimization, SIAM Journal on Scientific Computing, SIAM Journal on Imaging Sciences, Mathematics of Computation, Journal of Scientific Computing, and the top computer science conference NIPS. In 2011, she received the Outstanding Young Paper Award from the Chinese Society for Computational Mathematics and was honored as an Outstanding Ph.D. Student in Jiangsu Province. In 2017, she won the Best Paper Award at the International Congress of Chinese Mathematicians. She has several highly cited articles, with one being listed as a hot paper in the field of Chinese science. She has led projects funded by the National Natural Science Foundation of China, including both Youth and General Programs, and a general project from Jiangsu Province. She has also participated in a national key research and development program. In 2018, she was selected as an Outstanding Backbone Teacher in the “Qinglan Project” for universities in Jiangsu Province. In 2022, she was named a Young and Middle-aged Academic Leader in the “Qinglan Project” for Jiangsu universities. She serves as a director of the Mathematical Programming Branch of the Operations Research Society of China, an invited reviewer for the American Mathematical Society, and a reviewer for top journals in optimization such as SIAM Journal on Scientific Computing and SIAM Journal on Optimization."
+  avatar: /assets/images/avatar-MinTao.jpg
+  url: https://math.nju.edu.cn/szdw/apypl1/20190916/i22162.html
+  spk-title: On Partly Smoothness, Activity Identification and Faster Algorithms of L1 over L2  Minimization
+  spk-abstract: 
+    - The L1/L2 norm ratio arose as a sparseness measure and attracted a considerable amount of attention due to  three merits:(i) sharper approximations of $L_0$ compared to the $L_1$; (ii) parameter-free and scale-invariant; (iii) more attractive than $L_1$ under highly-coherent matrices. In this paper, we first establish the partly smooth property of $L_1$ over $L_2$ minimization relative to an active manifold ${\cal M}$ and also demonstrate its prox-regularity property. Second, we reveal that ADMM$_p$ (or ADMM$^+_p$) can identify the active manifold within a finite iterations. This discovery contributes to a deeper understanding of the optimization landscape associated with $L_1$ over $L_2$ minimization. Third, we propose a novel heuristic algorithm framework that combines ADMM$_p$ (or ADMM$^+_p$) with a globalized semismooth Newton method tailored for the active manifold ${\cal M}$. This hybrid approach leverages the strengths of both methods to enhance convergence. Finally, through extensive numerical simulations, we showcase the superiority of our heuristic algorithm over existing state-of-the-art methods for sparse recovery.
+
+- id: 5
+  sort_num: 5
+  name: Yuling Jiao
+  title: 
+    - Professor
+  title_level: 2
+  affiliation: 
+    - Wuhan University
+  bio: "Yuliang Jiao is a professor  at the School of Mathematics and Statistics, Wuhan University. His main research interests are in machine learning and scientific computing. His  work has been published in journals and conferences such as SIAM J. Math. Anal., SIAM J. Control Optim., SIAM J. Numer. Anal., SIAM J. Sci. Comput., SIAM J. Math. Data. Sci., Appl. Comput. Harmon. Anal., J. Mach. Learn. Res., IEEE Trans. Inf. Theory, Ann. Stat., J. Amer. Statist. Assoc., Statist. Sci., Inverse Probl., IEEE Trans. Signal Process., ICML, and NeurIPS."
+  avatar: /assets/images/avatar-YulingJiao.jpg
+  url: http://jszy.whu.edu.cn/jiaoyuling/zh_CN/index.htm
+  spk-title: DRM Revisited:A Complete Error Analysis
+  spk-abstract: 
+    - In this talk, we provide an answer to the question in deep Ritz Method (DRM) analysis under over-parameterization :"Given a desired precision, how can we determine the number of training samples, the parameters of neural networks, the step size of gradient descent, and the number of iterations such that the output deep networks of the gradient.
+
+- id: 6
+  sort_num: 6
+  name: Xuejin Chen
+  title: 
+    - Professor
+  title_level: 2
+  affiliation: 
+    - University of Science and Technology of China
+  bio: "I obtained Ph.D. and B.S in Department of Electronic Science and Technology in University of Science and Technology of China (USTC) in 2008 and 2003. My Ph.D. supervisor was Dr. Harry Shum. I worked in Visual Computing Group in Microsoft Research Asia (MSRA) as a research intern under supervision of Dr. Ying-Qing Xu and Dr. Sing Bing Kang since July 2004 to Aug. 2008. During 2008~2010, I worked with Prof. Julie Dorsey and Prof. Holly Rushmeier on sketching related projects at Computer Graphics Lab at Yale. I joined School of Information Science in USTC since 2010. I visited Stanford University and worked in Prof Leonidas Guibas's Lab as a visiting associate professor from Feb 2017 to Aug. 2017. My research interests include image-based 3D modeling, sketch-based content creation, and medical image analysis."
+  avatar: /assets/images/avatar-XuejinChen.jpg
+  url: http://staff.ustc.edu.cn/~xjchen99/?eqid=c1095e4a0023265100000004642d7e77
+  spk-title: Large-scale 3D Neuron Reconstruction and Morphology Analysis from Electron Microscopy Images
+  spk-abstract:
+    - With the advent of advanced serial section electron microscopy (EM) imaging techniques, several EM data of mm3-scale volumes have been published for the connectomics community, with the data sizes ranging from terabytes to petabytes. The current neuron reconstruction pipeline for EM data usually includes automatic image segmentation followed by extensive human expert proofreading. Our work aims to reduce human workload by predicting connectivity between over-segmented neuron pieces, taking both microscopy image and 3D morphology features into account, similar to human proofreading workflow. In this talk, I will introduce our recently proposed deep learning approaches for morphological analysis for neuron classification and retrieval, connectivity prediction of neuron segments, and long-range neuron 3D tracing. 
+
+- id: 7
+  sort_num: 7
+  name: Ya-Feng Liu
+  title: 
+    - Associate Professor
+  title_level: 3
+  affiliation: 
+    - Academy of Mathematics and Systems Science, Chinese Academy of Sciences
+  bio: "Ya-Feng Liu (M'12--SM'18) received the B.Sc. degree in applied mathematics from Xidian University, Xi'an, China, in 2007, and the Ph.D. degree in computational mathematics from the Chinese Academy of Sciences (CAS), Beijing, China, in 2012. During his Ph.D. study, he was supported by the Academy of Mathematics and Systems Science (AMSS), CAS, to visit Professor Zhi-Quan (Tom) Luo at the University of Minnesota (Twins Cities) from 2011 to 2012. After his graduation, he joined the Institute of Computational Mathematics and Scientific/Engineering Computing, AMSS, CAS, Beijing, China, in 2012, where he became an Associate Professor in 2018. His main research interests are nonlinear optimization and its applications to signal processing, wireless communications, and machine learning. Dr. Liu currently serves as an Associate Editor for the IEEE Transactions on Signal Processing, and the Journal of Global Optimization, and as a Lead Guest Editor for the IEEE Journal on Selected Areas in Communications special issue on “Advanced Optimization Theory and Algorithms for Next Generation Wireless Communication Networks”. He served as an Editor for the IEEE Transactions on Wireless Communications (2019--2022) and an Associate Editor for the IEEE Signal Processing Letters (2019--2023). He is an elected member of the Signal Processing for Communications and Networking Technical Committee (SPCOM-TC) of the IEEE Signal Processing Society (2020--2022 and 2023--2025). He received the Best Paper Award from the IEEE International Conference on Communications (ICC) in 2011, the Chen Jingrun Star Award from the AMSS in 2018, the Science and Technology Award for Young Scholars from the Operations Research Society of China in 2018, the 15th IEEE ComSoc Asia-Pacific Outstanding Young Researcher Award in 2020, and the Science and Technology Award for Young Scholars from the China Society for Industrial and Applied Mathematics in 2022. Students supervised and co-supervised by him won the Best Student Paper Award from the International Symposium on Modeling and Optimization in Mobile, Ad Hoc and Wireless Networks (WiOpt) in 2015 and the Best Student Paper Award of IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) in 2022."
+  avatar: /assets/images/avatar-Ya-FengLiu.jpg
+  url: https://lsec.cc.ac.cn/~yafliu/
+  spk-title: Covariance-Based Activity Detection in Cooperative Multi-Cell Massive MIMO:Scaling Law and Efficient Algorithms
+  spk-abstract: 
+    - In this talk, we focus on the activity detection problem in a multi-cell massive multiple-input multiple-output (MIMO) system, where active devices transmit their signature sequences to multiple base stations (BSs), and the BSs cooperatively detect the active devices based on the received signals. In this talk, we shall present some recent results of the covariance-based approach for activity detection in cooperative multi-cell massive MIMO systems. In particular, we shall present some scaling law results and efficient coordinate descent (CD) algorithms.
+
+- id: 8
+  sort_num: 8
+  name: Shan Luo
+  title: 
+    - Associate Professor
+  title_level: 3
+  affiliation: 
+    - King's College London
+  bio: "Shan Luo is currently a Reader in Robotics and AI at the Department of Engineering, King’s College London, where I lead the Robot Perception Lab (RPL). I am an enthusiastic and dedicated researcher doing research on machine learning and computer vision algorithms with applications in robotics, e.g., robot perception, object recognition & localisation, and multimodal sensing fusion. He was a Lecturer (Assistant Professor) at the Department of Computer Science, the University of Liverpool, from 2018 to 2021, and was Director for the smARTLab at the Department. Prior to that, I was a Postdoctoral Research Fellow at Harvard University from 2017 to 2018, and at the University of Leeds from 2016 to 2017. I received the PhD degree in Robotics from King’s College London, in 2016. I was a Visiting Scientist at the Computer Science and Artificial Intelligence Laboratory (CSAIL), MIT, in 2016. I am a Fellow of the Higher Education Academy (FHEA)."
+  avatar: /assets/images/avatar-ShanLuo.jpg
+  url: https://shanluo.github.io/
+  spk-title: Robot Embodiment through Visuo-Tactile Intelligence
+  spk-abstract: 
+    - This talk explores the important role of visuo-tactile intelligence in shaping robot embodiment, enabling their interactions with the physical world. By integrating visual and tactile sensory modalities, robots attain a deeper understanding of their surroundings, facilitating perception for agile grasping and manipulation. Drawing upon recent advancements in tactile sensor development including GelTip, TouchRoller and GelFinger, multimodal integration, and simulation techniques, I will delve into the foundations of visuo-tactile learning and its implications for robotics. Through case studies and experimental insights, I will share how this paradigm shift in robotic perception enhances adaptability, dexterity, and autonomy.
+
+- id: 9
+  sort_num: 9
+  name: Xiangming Meng
+  title: 
+    - Assistant Professor
+  title_level: 4
+  affiliation: 
+    - The University of Zhejiang
+  bio: "I am an Assistant Professor at The Zhejiang University-University of Illinois Urbana-Champaign Institute (ZJUI), Zhejiang University. Before that, I was a Project Assistant Professor at the Kabashima Lab in the Institute for Physics of Intelligence (i π), The University of Tokyo (UTokyo) from April 2022 to March 2023. I completed my Ph.D. in 2016 from Tsinghua University, supervised by Jianhua Lu. I received a B.E. from Xidian University in 2011. Previously I was a postdoctoral researcher in i π , UTokyo under supervision of Yoshiyuki Kabashima from April 2020 to March 2022, and a postdoctoral researcher in the Approximate Bayesian Inference Team, RIKEN center for Advanced Intelligence Project ( RIKEN-AIP) under supervision of Emtiyaz Khan from July 2019 to March 2020. I worked as a senior research engineer at Huawei Technologies Co., Ltd. from July 2016 to June 2019. I also visited University of Illinois Urbana-Champaign Institute (UIUC) from August 2023 to December 2023, hosted by Zhi-Pei Liang. I am broadly interested in the intersection of machine learning, information theory, and statistical mechanics, with a special focus on graphical models, Bayesian inference, and learning algorithms."
+  avatar: /assets/images/avatar-Xiangming Meng.jpg
+  url: https://mengxiangming.github.io/
+  spk-title: Generative Image Reconstruction Using Diffusion Models:A Paradigm Shift from Vanilla Sparsity to Generative Modeling
+  spk-abstract: 
+    - 
+
+- id: 10
+  sort_num: 10
+  name: Yanchao Yang
+  title: 
+    - Assistant Professor
+  title_level: 4
+  affiliation: 
+    - The University of Hongkong
+  bio: "I am an Assistant Professor at HKU, jointly appointed by the Department of Electrical and Electronic Engineering (EEE) and the HKU Musketeers Foundation Institute of Data Science (HKU-IDS). I was a Postdoctoral Research Fellow at Stanford University with Leonidas J. Guibas and received my Ph.D. from the University of California, Los Angeles (UCLA) with Stefano Soatto. Earlier, I obtained my Master's and Bachelor's degrees from KAUST and USTC, respectively. We do research in embodied AI and are interested in self-supervised and semi-supervised techniques that allow embodied agents to learn at low-annotation regimes. Our long-term goal is to design learning algorithms that enable embodied agents to continuously build scene representations and acquire interaction skills through active perception with multimodal signals. Our recent effort is to develop efficient mutual information estimators and automate the learning of perception, compositional scene representation, and interaction policy for embodied intelligence. We are also grounding Large Foundation Models to the physical world via information-theoretic tools."
+  avatar: /assets/images/avatar-YanchaoYang.jpg
+  url: https://yanchaoyang.github.io/
+  spk-title: InfoBodied AI:Learning Mutual Information for Embodied AI
+  spk-abstract: 
+    - Embodied AI strives to create agents capable of learning and tackling complex tasks involving physical interactions, with potential applications in many areas, such as housekeeping, caregiving, and logistics. Such agents must be able to perceive their environment, construct scene representations, and carry out reasoning and actions to accomplish task-specific goals. However, existing learning approaches rely on human annotations or unrealistic simulations, leading to generalization problems in the real world. Thus, it is crucial to equip embodied agents with the ability to autonomously learn from real-world data, minimizing reliance on human supervision and enabling adaptability to new tasks. We propose that the key to autonomous learning of embodied agents is the mutual correlations in the unlabeled data. In this presentation, we will talk about how we can efficiently compute mutual information of data by developing novel neural estimators. We will also show how these freely available mutual correlations can help reduce human annotation effort in learning label-efficient perception, scene representation, and grounded concepts for generalizable interaction policies. Finally, we show a potential framework to build embodied agents that can learn in unseen environments and automatically acquire novel interaction skills by leveraging mutual information in unlabeled observational data.

@@ -1,0 +1,17 @@
+main:
+  # - title: "Home"
+  #   url: /
+  - title: "Speakers"
+    url: /speakers.html
+  - title: "Program"
+    url: /program.html
+  - title: Posters
+    url: /posters.html
+  - title: "Venue"
+    url: /venue.html
+  - title: "Registration"
+    url: /registration.html
+  - title: "Committee"
+    url: /committee.html
+  - title: "Contact"
+    url: /contact.html

@@ -1,0 +1,36 @@
+
+<div style="margin: 30px 0;" id="speaker-{{include.id}}">
+    <div style="display: flex; width: 100%; margin: 20px 0 10px 0;">
+        <img src="{{ site.baseurl }}{{include.speaker.avatar}}" alt="{{include.speaker.name}}" style="width:120px; height:160px;"/>
+        <div style="width: 400px; margin: 0px 0px 0px 30px">
+            <h4 style="color:dimgray; margin-top: 5px;">{{include.speaker.name}}</h4>
+            <p style="font-size: medium; margin: 10px 0 0 0;">
+                {% for t in include.speaker.title%}{{t}}{% endfor %}
+            </p> 
+            <p style="font-size: medium; margin: 5px 0;">
+                {% for aff in include.speaker.affiliation%}{{aff}}{% endfor %}
+            </p>
+            {% if include.speaker contains "url" %}
+            <p style="font-size: medium; margin: 5px 0"><a href="{{include.speaker.url}}">Personal Webpage</a></p>
+            {% endif %}
+        </div>
+    </div>
+    <div style="font-size: medium; margin: 0;">
+        <b>Title: &nbsp;</b> {{include.speaker.spk-title}}
+        <div style="margin: 10px 0;"></div>
+
+        <b>Abstract: &nbsp;</b>
+        {% for para in include.speaker.spk-abstract %}
+        {{para}}
+        <div style="margin: 5px 0;"></div>
+        {% endfor %}
+        <div style="margin: 10px 0;"></div>
+
+        <b>Bio: &nbsp;</b>
+        {% for para in include.speaker.bio %}
+        {{para}}
+        <div style="margin: 5px 0;"></div>
+        {% endfor %}
+        <div style="margin: 10px 0;"></div>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+---
+layout: single
+permalink: /committee
+posts:
+  - Steering Committee Chair
+  - General Chair
+  - Program Committee Chairs
+  - Publicity Chair
+  - Secretary
+  - Finance Chair
+  - Operational Committee
+---
+
+{% for post in page.posts %}
+  <h2>{{post}}</h2>
+  {% for person in site.data.committee %}
+    {% if person.post == post %}
+      {% include person_profile.html person=person%}
+    {% endif %}
+  {% endfor %}
+  {% for person in site.data.volunteers %}
+    {% if person.post == post %}
+      {% include volunteer_profile.html person=person%}
+    {% endif %}
+  {% endfor %}
+{% endfor %}

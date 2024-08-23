@@ -1,0 +1,39 @@
+- name: "Xiao-Ping Zhang"
+  affiliation: "Tsinghua Shenzhen International Graduate School"
+  post: "Steering Committee Chair"
+  avatar: "/assets/images/avatar-XiaoPingZhang.jpg"
+
+- name: "Yang Li"
+  affiliation: "Tsinghua Shenzhen International Graduate School"
+  post: "General Chair"
+  avatar: "/assets/images/avatar-YangLi.jpg"
+
+- name: "Xiaoping Wang"
+  affiliation: "The Chinese University of Hong Kong"
+  post: "Program Committee Chairs"
+  avatar: "/assets/images/avatar-XiaopingWang.jpg"
+  
+- name: "Zhenyu Liu"
+  affiliation: "Tsinghua Shenzhen International Graduate School"
+  post: "Program Committee Chairs"
+  avatar: "/assets/images/avatar-ZhenyuLiu.jpg"
+
+- name: "Chao Shen"
+  affiliation: "Shenzhen Research Institute of Big Data"
+  post: "Program Committee Chairs"
+  avatar: "/assets/images/avatar-ChaoShen.jpg"
+
+- name: "Jingyi Wang"
+  affiliation: "The Chinese University of Hong Kong"
+  post: "Publicity Chair"
+  avatar: "/assets/images/avatar-JingyiWang.jpg"
+
+- name: "Mengwen Zhang"
+  affiliation: "Tsinghua Shenzhen International Graduate School"
+  post: "Secretary"
+  avatar: "/assets/images/avatar-MengwenZhang.jpg"
+
+- name: "Genmei Yan"
+  affiliation: "Tsinghua Shenzhen International Graduate School"
+  post: "Finance Chair"
+  avatar: "/assets/images/avatar-GenmeiYan.jpg"

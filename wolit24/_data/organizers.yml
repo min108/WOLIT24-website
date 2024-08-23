@@ -1,0 +1,24 @@
+- id: 1
+  name: Institute of Data and Information (iDI), Tsinghua Shenzhen International Graduate School
+  logo: /assets/images/logo-iDI_SIGS.jpg
+  url: "https://www.sigs.tsinghua.edu.cn/"
+- id: 2
+  name: Shenzhen Ubiquitous Data Empowerment Key Laboratory
+  logo: /assets/images/logo-idi_lab-min.jpg
+  url: "https://www.sigs.tsinghua.edu.cn/"
+- id: 3
+  name: The Chinese University of Hong Kong, Shenzhen
+  logo: /assets/images/logo-CUHK_SZ-min.jpg
+  url: "https://cuhk.edu.cn/zh-hans"
+- id: 4
+  name: Shenzhen Research Institute of Big Data
+  logo: /assets/images/logo-RIBD-min.jpg
+  url: "http://www.sribd.cn/"
+- id: 5
+  name: Shenzhen International Center for Industrial and Applied Mathematics
+  logo: /assets/images/logo-SICIAM-min.jpg
+  url: "http://sribd.cn/node/922"
+- id: 6
+  name: Guangdong Province Intelligent Industrial Twin and Optimization Engineering Technology Research Center
+  logo: /assets/images/logo-IITOETRC-min.jpg
+  url: "http://sribd.cn/"

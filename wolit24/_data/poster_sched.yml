@@ -1,0 +1,24 @@
+- num: 1
+  date: 
+    - Poster Session
+  sched:
+    - time: 16:00 - 16:05
+      event: "Attention-Enhanced Transformer for Monocular Depth Estimation of Volatile Kiln Burden Surface"
+    - time: 16:05 - 16:10
+      event: "A Scalable Constructive Algorithm for Efficient Order Batching"
+    - time: 16:10 - 16:15
+      event: "Topological and Graph Theoretic Analysis of Dynamic Functional Connectivity"
+    - time: 16:15 - 16:20
+      event: "CPSD: A simultaneous solution to shadow and dark area problems in structured light systems"
+    - time: 16:20 - 16:25
+      event: "CCIS-Diff: A Generative Model with Stable Diffusion Prior for Controlling Colonoscopy Image Synthesis"
+    - time: 16:25 - 16:30
+      event: "LEGEND: identifying co-expressed genes in multimodal transcriptomic sequencing data"
+    - time: 16:30 - 16:35
+      event: "Single-Frame Complete Point Cloud Reconstruction against Strong Occlusion: Methodology System and Demonstration"
+    - time: 16:35 - 16:40
+      event: "Physical model-driven single-shot end-to-end absolute phase acquisition strategy"
+    - time: 16:40 - 16:45
+      event: "Large Vision-Language Model Based Agent for Construction Site Safety Surveillance"
+    - time: 16:45 - 16:50
+      event: "Graph Laplacian Entropy Improves Molecule Graph Generation"

@@ -1,0 +1,8 @@
+- id: 1
+  name: Meituan
+  logo: /assets/images/logo-Meituan.jpg
+  url: https://about.meituan.com/
+- id: 2
+  name: VPHonor
+  logo: /assets/images/logo-VPHonor.jpg
+  url: https://www.vphonor.com/

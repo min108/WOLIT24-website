@@ -1,0 +1,16 @@
+---
+layout: single
+permalink: /speakers
+sidebar:
+  title: " "
+  nav: sidebar-speakers
+---
+
+{% assign idx = 0 %}
+{% for speaker in site.data.speakers_sorted %}
+  {% assign idx = idx | plus: 1 %}
+  {% include speaker_profile.html speaker=speaker id=speaker.id%}
+  <hr width=100%>
+{% endfor %}
+
+<div style="height: 800px;"></div>
